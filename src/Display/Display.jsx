@@ -3,10 +3,10 @@ import { CalcContext } from '../providers/calc';
 import "./Display.css";
 
 const Display = () => {
-    const {value} = useContext(CalcContext);
+    const {display} = useContext(CalcContext);
     
     return (
-        <div className='Display'>{value}</div>
+        <div className='Display'>{display}</div>
     );
 }
  
