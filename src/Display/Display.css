@@ -6,4 +6,28 @@
     color: #fff;
     font-size: 2em;
     text-align: end;
+    overflow-wrap: anywhere;
+    max-height: 245px;
+    overflow-y: auto;
+}
+
+/* width */
+.Display::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+.Display::-webkit-scrollbar-track {
+    background: #2D4976;
+}
+   
+/* Handle */
+.Display::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.445);
+    border-radius: 5px; 
+}
+  
+/* Handle on hover */
+.Display::-webkit-scrollbar-thumb:hover {
+    background: #fff; 
 }
